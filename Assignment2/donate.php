@@ -1,5 +1,5 @@
 <!-- NAME: AARSH PARIMAL PATEL -->
-<!-- STUDENT ID: 200520260 -->
+<!-- Semester-2 -->
 <!-- Assignment 2 -->
 
 <!-- This is the code for the Donation page of our website -->
