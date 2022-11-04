@@ -1,0 +1,411 @@
+/* <!--
+NAME : Aarsh Parimal Patel
+Assignment#1
+Semester-2
+ --> */
+
+
+/* adding fonts for our elements */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+input,
+label {
+  font-family: 'DM Sans', sans-serif;
+}
+
+/* adding css to our body */
+body {
+  margin: 0px 0px;
+  background-color: #FFD740;
+}
+
+/* adding css for our header and its elements to give a classy look to our header */
+header {
+  display: flex;
+  align-items: center;
+  position: sticky;
+  overflow: hidden;
+  top: 0px;
+  height: 90px;
+  justify-content: space-between;
+  background-color: #FFAB00;
+  padding-bottom: 5px;
+  /* adding shadows to the header */
+  filter: brightness(10%);
+  filter: contrast(10%);
+  filter: drop-shadow(1.5px 1.5px 1.5px #37474F);
+  border-radius: 35px;
+}
+
+header nav ul {
+  display: flex;
+  justify-content: space-around;
+  text-decoration: none;
+  list-style: none;
+  font-size: 20px;
+  left: 20px;
+}
+
+header .logo a img {
+  height: 85px;
+  width: 105px;
+  padding-left: 30px;
+  padding-top: 8px;
+  filter: brightness(100%);
+  filter: contrast(100%);
+  filter: drop-shadow(5px 5px 5px #FFAE42);
+}
+
+/* adding css to all the nav elements */
+header nav ul li:nth-child(1) a {
+  text-decoration: none;
+  padding-right: 30px;
+  left: 10px;
+  font-family: 'DM Sans', sans-serif;
+  font-weight: 300;
+  color: #DD2C00;
+}
+
+header nav ul li:nth-child(2) a {
+  text-decoration: none;
+  padding-right: 30px;
+  left: 10px;
+  font-family: 'DM Sans', sans-serif;
+  font-weight: 300;
+  color: #DD2C00;
+}
+
+header nav ul li:nth-child(3) a {
+  text-decoration: none;
+  padding-right: 30px;
+  left: 10px;
+  font-family: 'DM Sans', sans-serif;
+  font-weight: 300;
+  color: #DD2C00;
+}
+
+header nav ul li:nth-child(4) a {
+  text-decoration: none;
+  left: 10px;
+  padding-right: 30px;
+  font-family: 'DM Sans', sans-serif;
+  font-weight: 300;
+  color: #DD2C00;
+}
+
+/* adding css to our heading and bg image */
+.bghead {
+  margin-top: 0px;
+  height: 750px;
+  width: 100%;
+  background-image: url(../img/bg.jpg);
+  text-align: center;
+
+}
+
+.bghead h1 {
+  margin-top: 0px;
+  padding-top: 300px;
+  font-size: 85px;
+  color: #FF4500;
+  font-family: 'Rubik Dirt', sans-serif;
+  text-shadow: -1px -1px 0px #212121, 2px 2px 0px #212121,
+    5px 5px 0px #212121;
+}
+
+.menu {
+  text-align: center;
+  color: #DD2C00;
+  font-size: 25px;
+  font-style: oblique;
+}
+
+/* adding css to our first pizza */
+.pizza1 {
+  display: flex;
+  margin-left: 40px;
+  margin-top: 10px;
+}
+
+.imgp1 h2 {
+
+  font-size: 27px;
+}
+
+.sizes1 {
+  padding-top: 80px;
+  padding-left: 100px;
+  font-size: 20px;
+}
+
+.sizes1 h3 {
+  font-size: 25px;
+}
+
+.ext1 {
+  padding-top: 80px;
+  padding-left: 80px;
+  font-size: 20px;
+}
+
+.ext1 h3 {
+  font-size: 25px;
+}
+
+.sauces {
+  padding-top: 80px;
+  padding-left: 80px;
+  font-size: 20px;
+}
+
+.sauces h3 {
+  font-size: 25px;
+}
+
+.quan {
+  padding-top: 150px;
+  padding-left: 80px;
+  font-size: 18px;
+}
+
+.quan input {
+  font-size: 18px;
+}
+
+.quan button {
+  font-size: 18px;
+  font-weight: 600;
+  background-color: #ffb300;
+  height: 40px;
+
+}
+
+.quan button img {
+  padding-left: 6px;
+  padding-top: 2px;
+}
+
+/* adding css to our second pizza */
+
+.pizza2 {
+  display: flex;
+  margin-left: 40px;
+  margin-top: 10px;
+}
+
+.imgp2 h2 {
+
+  font-size: 27px;
+}
+
+.sizes2 {
+  padding-top: 80px;
+  padding-left: 100px;
+  font-size: 20px;
+}
+
+.sizes2 h3 {
+  font-size: 25px;
+}
+
+.ext2 {
+  padding-top: 80px;
+  padding-left: 80px;
+  font-size: 20px;
+}
+
+.ext2 h3 {
+  font-size: 25px;
+}
+
+.sauces1 {
+  padding-top: 80px;
+  padding-left: 80px;
+  font-size: 20px;
+}
+
+.sauces1 h3 {
+  font-size: 25px;
+}
+
+.quan1 {
+  padding-top: 150px;
+  padding-left: 80px;
+  font-size: 18px;
+}
+
+.quan1 input {
+  font-size: 18px;
+}
+
+.quan1 button {
+  font-size: 18px;
+  font-weight: 600;
+  background-color: #ffb300;
+  height: 40px;
+
+}
+
+.quan1 button img {
+  padding-left: 6px;
+  padding-top: 2px;
+}
+
+/* adding css to our third pizza */
+.pizza3 {
+  display: flex;
+  margin-left: 40px;
+  margin-top: 10px;
+}
+
+.imgp3 h2 {
+
+  font-size: 27px;
+}
+
+.sizes3 {
+  padding-top: 80px;
+  padding-left: 100px;
+  font-size: 20px;
+}
+
+.sizes3 h3 {
+  font-size: 25px;
+}
+
+.ext3 {
+  padding-top: 80px;
+  padding-left: 80px;
+  font-size: 20px;
+}
+
+.ext3 h3 {
+  font-size: 25px;
+}
+
+.sauces2 {
+  padding-top: 80px;
+  padding-left: 80px;
+  font-size: 20px;
+}
+
+.sauces2 h3 {
+  font-size: 25px;
+}
+
+.quan2 {
+  padding-top: 150px;
+  padding-left: 80px;
+  font-size: 18px;
+}
+
+.quan2 input {
+  font-size: 18px;
+}
+
+.quan2 input[type=checkbox] img {
+  padding-left: 6px;
+  padding-top: 2px;
+}
+
+.quan2 input[type=checkbox] {
+  font-family: 'DM Sans', sans-serif;
+
+}
+
+/* adding css to our form */
+.personalinfo {
+  margin-left: 40px;
+  padding-top: 10px;
+}
+
+.personalinfo h2 {
+  text-align: center;
+  color: #DD2C00;
+  font-size: 30px;
+  font-style: oblique;
+}
+
+.personalinfo label {
+  font-size: 22px;
+}
+
+.personalinfo input[type=text] {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  border-radius: 100px;
+  font-size: 16px;
+
+}
+
+.personalinfo input[type=tel] {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  border-radius: 100px;
+  font-size: 16px;
+}
+
+.personalinfo p {
+  font-size: 22px;
+}
+
+.personalinfo textarea {
+  font-size: 16px;
+  font-family: 'DM Sans', sans-serif;
+}
+
+.submitb {
+  font-size: 18px;
+  font-weight: 600;
+  background-color: #ffb300;
+  height: 40px;
+}
+
+.php {
+  padding-left: 40px;
+  font-size: 22px;
+  font-family: 'DM Sans', sans-serif;
+  padding-top: 10px;
+}
+
+.php h3 {
+  text-align: center;
+  color: #DD2C00;
+  font-size: 28px;
+  font-style: oblique;
+}
+
+.error {
+  font-weight: bolder;
+  color: red;
+}
+
+footer {
+
+  height: 120px;
+  background-color: #FFAB00;
+  padding-bottom: 5px;
+  /* adding shadows to the footer */
+  filter: brightness(10%);
+  filter: contrast(10%);
+  filter: drop-shadow(1.5px 1.5px 1.5px #37474F);
+}
+
+footer p {
+  text-align: center;
+  font-size: 32px;
+  padding-top: 40px;
+  font-weight: bolder;
+  color: #DD2C00;
+}
+
+/* end of the css */
