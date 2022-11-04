@@ -1,0 +1,210 @@
+/* NAME: AARSH PARIMAL PATEL
+  Semester-2
+  ASSIGNMENT-2
+*/
+
+/* adding the font styles */
+h1,
+h2,
+h4,
+h5,
+h6,
+p,
+input,
+label,
+ul,
+li {
+  font-family: 'Montserrat', sans-serif;
+}
+
+h3 {
+  font-family: 'Abril Fatface';
+  font-weight: 200;
+  font-size: 30px;
+}
+
+h1 {
+  font-size: 34px;
+}
+
+h4 {
+  font-size: 21px;
+}
+
+h2 {
+  font-size: 22px;
+}
+
+/* adding css to the body of all pages */
+body {
+  background-color: #fdfff5;
+}
+
+/* adding css to our header */
+header {
+  display: flex;
+  align-items: center;
+  position: sticky;
+  overflow: hidden;
+  top: 0px;
+  height: 90px;
+  justify-content: space-between;
+  background-color: #f5f5f5;
+  padding-bottom: 5px;
+  /* adding shadows to the header */
+  filter: brightness(50%);
+  filter: contrast(50%);
+  filter: drop-shadow(4px 1.5px 1.5px lightsteelblue);
+}
+
+header nav ul {
+  display: flex;
+  justify-content: space-around;
+  text-decoration: none;
+  list-style: none;
+  font-size: 22px;
+  left: 20px;
+}
+
+
+/* adding shadows and css to the header elements */
+header .headerlogo a img {
+
+  padding-left: 20px;
+  padding-top: 5px;
+  filter: brightness(120%);
+  filter: contrast(120%);
+  filter: drop-shadow(5px 5px 5px lightsteelblue);
+}
+
+
+
+/* adding css to all the nav elements */
+header nav ul li:nth-child(1) a {
+  text-decoration: none;
+  font-weight: bold;
+  padding-right: 30px;
+  left: 20px;
+  color: #0e0e0e;
+}
+
+header nav ul li:nth-child(2) a {
+  text-decoration: none;
+  font-weight: bold;
+  padding-right: 30px;
+  left: 20px;
+  color: #0e0e0e;
+}
+
+header nav ul li:nth-child(3) a {
+  text-decoration: none;
+  font-weight: bold;
+  padding-right: 30px;
+  left: 20px;
+  color: #0e0e0e;
+}
+
+.heading {
+  padding-left: 250px;
+}
+
+.homepage .img1 {
+  padding-right: 10px;
+  width: 100%;
+  height: auto;
+
+}
+
+.info1 {
+  display: flex;
+
+}
+
+.info2 {
+  display: flex;
+
+}
+
+.info1 p {
+  padding-left: 10px;
+}
+
+.info2 p {
+  padding-left: 10px;
+}
+
+/* adding css to our footer and its elements and giving it a proper finish. */
+footer {
+
+  background-color: #f5f5f5;
+  margin-top: 5px;
+
+  text-align: center;
+  height: 100px;
+  margin-bottom: 0px;
+  filter: brightness(120%);
+  filter: contrast(120%);
+  filter: drop-shadow(5px 5px 5px lightsteelblue);
+}
+
+footer h2 {
+  padding-top: 35px;
+}
+
+
+/* adding css to our form */
+.personalinfo {
+  margin-left: 40px;
+  padding-top: 10px;
+}
+
+.personalinfo h2 {
+  text-align: center;
+  color: #0e0e0e;
+  font-size: 30px;
+  padding-right: 40px;
+  font-style: oblique;
+}
+
+.personalinfo label {
+  font-size: 18px;
+}
+
+.personalinfo input[type=text] {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  border-radius: 100px;
+  font-size: 16px;
+
+}
+
+.personalinfo input[type=tel] {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  border-radius: 100px;
+  font-size: 16px;
+}
+
+.personalinfo p {
+  font-size: 22px;
+}
+
+.submitb {
+  cursor: pointer;
+  font-size: 18px;
+  font-weight: 600;
+  background-color: #d3d3d3;
+  height: 40px;
+}
+
+/* adding css to display error section */
+.error {
+  font-weight: bolder;
+  color: red;
+}
+
+/* end of css */
